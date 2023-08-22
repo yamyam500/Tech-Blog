@@ -1,0 +1,19 @@
+ <form class="write-blog-form">
+    <input type="hidden" id="hidden-user-id" value="{{userId}}">
+    <input type="hidden" id="hidden-post-id" value="{{postId}}">
+    <div class="field">
+      <label class="label">Titlehahaha</label>
+      <div class="control">
+        <input class="input" id="title-input" type="text" placeholder="{{post.title}}" value="{{post.title}}">
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Blog Content</label>
+      <div class="control">
+        <textarea class="textarea" id="body-input" type="text" placeholder="Blog Content"></textarea>
+      </div>
+    </div>
+
+    <button class="form-button" id="update-blog-button">Update Blog</button>
+  </form>
