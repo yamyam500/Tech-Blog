@@ -3,4 +3,4 @@
 
 - [App screenshot] [![Alt text](<public/images/Screenshot 2023-08-30 at 5.15.22 AM copy.png>)]
 
-- Github URL. 
+- Github URL. [https://github.com/yamyam500/Tech-Blog]
