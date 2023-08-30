@@ -1,57 +1,19 @@
-{{!-- LOGIN FORM --}}
- <div class="form-container">
-  <div class="form-wrapper">
-    <h3>Log In</h3>
-      <form>
-        <div class="field">
-          <label class="label">Username</label>
-          <div class="control has-icons-left">
-            <input class="input" id="login-username" type="text" placeholder="username">
-            <span class="icon is-small is-left">
-              <i class="fas fa-user"></i>
-            </span>
-          </div>
-        </div>
 
-        <div class="field">
-          <label class="label">Password</label>
-          <div class="control has-icons-left">
-            <input class="input" id="login-password" type="password" placeholder="password">
-            <span class="icon is-small is-left">
-              <i class="fas fa-lock"></i>
-            </span>
-          </div>
-        </div>
-
-        <button class="form-button" id="login-button">Log In</button>
-      </form>
-  </div>
-
-{{!-- SIGNUP FORM --}}
-  <div class="form-wrapper">
-    <h3>Sign Up</h3>
-    <form>
-      <div class="field">
-        <label class="label">Create Username</label>
-        <div class="control has-icons-left">
-          <input class="input" type="text" id="signup-username" placeholder="create username">
-          <span class="icon is-small is-left">
-            <i class="fas fa-user"></i>
-          </span>
-        </div>
-      </div>
-
-      <div class="field">
-        <label class="label">Create Password</label>
-        <div class="control has-icons-left">
-          <input class="input" type="password" id="signup-password" placeholder="create password">
-          <span class="icon is-small is-left">
-            <i class="fas fa-lock"></i>
-          </span>
-        </div>
-      </div>
-
-      <button class="form-button" id="signup-button">Sign Up</button>
-    </form>
-  </div>
+<div class="container">
+  <div class="card login-form" >
+    <div class="card-header">
+      <h2>Login</h2>
+    </div>
+<label for="username" class="form-label">Username</label>
+<input  id="user-input"type="text" class="form-control">
+<label for="inputPassword5" class="form-label">Password</label>
+<input id="user-password"type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+<button class="btn btn-warning">Submit</button>
 </div>
+</div>
+
+<script src="/js/login.js"></script>
+
+
+
+

@@ -1,5 +1,5 @@
-<h1>Homepage</h1>
-{{#each posts}}      
+<h1 id="head-title">Homepage</h1>
+{{!-- {{#each posts}}      
     <!-- BLOG CARD -->
     <a href="/{{id}}" class="card-holder-link">
       <div class="card-holder home-card">
@@ -16,4 +16,19 @@
         </div>
       </div>
     </a>
+{{/each}} --}}
+
+
+{{#each posts}}  
+<div class="card">
+    <a href="/{{id}}" class="card-link">
+  <h3 class="card-header">
+    {{title}}
+  </h3>
+  <div class="card-body">
+     <h5>{{user.username}}</h5>
+       <h6>{{date_created}}</h6>
+  </div>
+ </a>
+</div>
 {{/each}}
